@@ -1,14 +1,15 @@
 # **klmsupport**
 ## **Enterprise-level Customer Support Application**
 
-Package hierarchy looks like this:
+**Package hierarchy looks like this:**
 ![Hierarchy](hierarchy.png)
 
-Package klm.pstryk.site looks like this:
+**Package klm.pstryk.site looks like this:**
 ![klm.pstryk.site.svg](klm.pstryk.site.svg)
 To see it in a large view you need to open the grafic in another window.
 
 TicketService looks like this:
+
 ![TicketService](TicketService.svg)
 
 And DefaultTicketService looks like this:
@@ -122,13 +123,13 @@ The different situation is when listing the comments while viewing a ticket, att
 Here goes some theory of lazy loading simple properties with load time weaving...
 
 
-Summary:
+# Summary:
 There are in the project several other interesting functionalities like searching or chatting, but I'm not gonna describe them now. I would gladly provide the description orally during an interview. The project is still in-progress, I will:
--- improve authentication using Spring Security, 
--- expand an user interface (additional JSP tags),
--- improve an user interface (probably Bootstrap, maybe try different template engine),
--- improve RESTful and SOAP web services,
--- provide thorough coverage of tests,
--- improve a class diagram and provide a sequence diagram,
--- expand this documentation.
+- improve authentication using Spring Security, 
+- expand an user interface (additional JSP tags),
+- improve an user interface (probably Bootstrap, maybe try different template engine),
+- improve RESTful and SOAP web services,
+- provide thorough coverage of tests,
+- improve a class diagram and provide a sequence diagram,
+- expand this documentation.
 TO BE CONTINUED...
