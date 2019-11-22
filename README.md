@@ -8,6 +8,8 @@
 ![klm.pstryk.site.svg](klm.pstryk.site.svg)
 
 
+**Providing some sample class diagrams, ie: TicketService interface and its implementation DefaultTicketService:**
+
 **TicketService looks like this:**
 
 ![TicketService](TicketService.svg)
@@ -18,7 +20,7 @@
 
 
 ## Model View Controler plus Controller Service Repository pluse Spring Data JPA
-Here goes some theory...
+Here goes some information... (provide later)
 
 ## The initial flow of the process
 Initial point is in the file IndexController.java:
@@ -69,7 +71,7 @@ Then **JstlView** maps *ticket/list* to *web/WEB-INF/jsp/view/ticket/list.jsp*, 
     </c:choose>
 </template:basic>
 ```
-Here goes a sequence diagram...
+Here goes a sequence diagram... (provide later)
 
 ## Some Entities relationship
 One-To-Many:
@@ -121,7 +123,7 @@ public Ticket getTicket(long id)
 ```
 The different situation is when listing the comments while viewing a ticket, attachments of every comment need to be loaded immediately. So they must be loaded eagerly.
   
-Here goes some theory of lazy loading simple properties with load time weaving...
+Here goes some infomration about lazy loading simple properties with load time weaving... (provide later)
 
 
 # Summary:
