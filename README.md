@@ -4,6 +4,9 @@ Enterprise-level Customer Support Application
 Package and class hierarchy looks like this:
 ![Hierarchy](hierarchy.png)
 
+Package klm.pstryk.site looks like this:
+![package](klm.pstryk.site.svg)
+
 TicketService looks like this:
 ![TicketService](TicketService.svg)
 
