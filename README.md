@@ -1,25 +1,26 @@
 # **klmsupport**
-## **Enterprise-level Customer Support Application**
+# **Enterprise-level Customer Support Application**
 
 **Package hierarchy looks like this:**
 ![Hierarchy](hierarchy.png)
 
-**Package klm.pstryk.site looks like this:**
+**Package klm.pstryk.site looks like this:** (To see it in a large view you need to open the grafic in another window.)
 ![klm.pstryk.site.svg](klm.pstryk.site.svg)
-To see it in a large view you need to open the grafic in another window.
 
-TicketService looks like this:
+
+**TicketService looks like this:**
 
 ![TicketService](TicketService.svg)
 
-And DefaultTicketService looks like this:
+**And DefaultTicketService looks like this:**
+
 ![DefaultTicketService](DefaultTicketService.svg)
 
 
-# Model View Controler plus Controller Service Repository pluse Spring Data JPA
+## Model View Controler plus Controller Service Repository pluse Spring Data JPA
 Here goes some theory...
 
-# The initial flow of the process
+## The initial flow of the process
 Initial point is in the file IndexController.java:
 ```java
 @WebController
@@ -70,7 +71,7 @@ Then **JstlView** maps *ticket/list* to *web/WEB-INF/jsp/view/ticket/list.jsp*, 
 ```
 Here goes a sequence diagram...
 
-# Some Entities relationship
+## Some Entities relationship
 One-To-Many:
 - Ticket to Attachment*s*
 - TicketComment to Attachment*s*
