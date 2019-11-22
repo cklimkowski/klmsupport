@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="klmlog4j_con:: %d{HH:mm:ss.SSS} --klm-- %msg%n"/>
+        </Console>
+        <RollingFile name="PstrykFileAppender" fileName="../logs/support.log"
+                     filePattern="../logs/support-%d{MM-dd-yyyy}-%i.log">
+            <PatternLayout>
+                <pattern>klmlog4j_file:: %d{HH:mm:ss.SSS} --klm-- %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <DefaultRolloverStrategy min="1" max="4" />
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <root level="warn">
+            <appender-ref ref="Console" />
+            <appender-ref ref="PstrykFileAppender" />
+        </root>
+        <logger name="klm.pstryk" level="debug" />
+        <logger name="org.apache" level="debug" />
+        <logger name="org.springframework" level="debug" />
+    </loggers>
+</configuration>
+
