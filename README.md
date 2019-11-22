@@ -1,14 +1,18 @@
 # klmsupport
 Enterprise-level Customer Support Application
 
-Package and class hierarchy looks like this:
+Package hierarchy looks like this:
 ![Hierarchy](hierarchy.png)
 
 Package klm.pstryk.site looks like this:
-![package](klm.pstryk.site.svg)
+![klm.pstryk.site.svg](klm.pstryk.site.svg)
+To see it in a large view you need to open the grafic in another window.
 
 TicketService looks like this:
 ![TicketService](TicketService.svg)
+
+And DefaultTicketService looks like this:
+![DefaultTicketService](DefaultTicketService.svg)
 
 
 # Model View Controler plus Controller Service Repository pluse Spring Data JPA
